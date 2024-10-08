@@ -1,0 +1,111 @@
+---AULA05 MANIPULANDO STRINGS---
+--Aspas triplas '''texto''' imprime um texto grande de varias linhas
+
+-Bibliotecas
+----Chamando biblioteca---
+import (nome_biblioteca)  #Vai importar toda a biblioteca
+form (nome_biblioteca) import (nome_item),(outo_item)  #importa só os itens escolhidos da biblioteca
+
+--time--
+import time
+time.sleep(secs)
+  ex: sleep(2) #2 seg de espera
+
+--biblioteca math (matematica)--
+ceil  -- arredonda para CIMA
+floor -- arredonda para BAIXO
+trunc -- Trunca um numero, tira 0 valor depois da virgula, 1,55 = 1
+sqrt -- raiz quadrada
+factorial -- fatorial (INTEIRO)
+  ex: print(f'{math.FUNÇÃO(VARIAVEL)})
+pow -- potencia
+  pow(base, exp)
+
+
+-bool-
+var = bool(input(''))
+vai armazenar um valor booleano =True ou False
+
+-is
+is é um comando para testar "é isso"
+var.isspace()
+  print('só tem espaços?', var.isspace())
+var.isalpha()
+  print('só tem letra?',var.isalpha())
+var.isupper()
+  print('só tem somente letras maiusculas?', var.isupper())
+var.islower()
+  print('só tem somente letras minusculas?',var.islower())
+var.isnumeric()
+  print('só tem numero?',var.isnumeric())
+var.isalnum()
+  print('só tem letra e numero ? e não um caracter especial ?',var.isalnum())
+var.istitle()
+  print('só tem a primeira letra maiuscula?', var.istitle())
+
+---Formatação da saida---
+--tirando o pular linha ao final do print
+print('',end='')
+-- quebrando a linha \n
+-Imprimindo direto na tela as contas
+print('soma= '.format(n1+n2))
+print('multiplicação= '.format(n1*n2))
+print('divisão= '.format(n1/n2))
+--formatando casas decimais
+print('A divisão é {:.3f}'.format(var))
+A divisão é 3.333
+
+---ALINHAMENTO---
+var='nome'
+print(' {:10}!'.format(var))
+nome    !
+print(' {:>10}!'.format(var))
+    nome!
+print(' {:<10}!'.format(var))
+nome     !
+print(' {:^10}!'.format(var))
+  nome   !
+print(' {:-^10}!'.format(var))
+---nome---!
+
+
+--Manipulando STRINGS--
+-fatiamento-
+frase="Ola enfermeira joy"#17  caracteres
+print(frase) = mostra toda a string
+print(frase[9]) = mostra somente o item na chave 9
+print(frase[2:10]) = mostra os valores entre as chaves 2 a 10
+print(frase[2:17:2]) = mostra os valores das chaves 2 a 17 pulando de dois em dois
+print(frase[:5]) = mostra os valores de chave 0 a té 5
+print(frase[10:]) = mostra os valores de 10 até o final da string
+print(frase[9::3]) = mostra os valores das chaves de 9 até o final pulando de 3 em 3
+
+-FUNÇÕES DE MANIPULAÇÕES DE STRINGS
+print(var.função('letra'))
+
+print(len(frase)) = mostra o tamanho total da frase em int
+print(frase.count('x')) = conta quantas vezes aparece a letra x na frase
+print(frase.count('x',0,13)) = conta quantas vezes aparece "x" entre as chaves 0  a 13
+print(frase.find('xx')) = mostra a chave da onde começa o valor xx na string
+print("palavra" in frase) = existe a palavra dentro da frase = True
+
+--Transformação --
+print(frase.replace("Python","Android")) = substitui a palavra python por android
+frase.upper() = transforma a frase em MAIUSCULO
+frase.lower() = transforma a frase em MINUSCULO
+frase.capitalize()= transforma a string em minusculo e joga a primeira letra em MAIUSCULO
+frase.title() = transforma tudo em minusculo e coloca a primeira letra em MAIUSCULA
+frase.strip() = remove os espaços em branco do começo e fim da string e não os do meio
+
+
+----QUEBRA E JUNÇÃO----
+frase.split() = Divide a franse atraves dos espaços da string
+  frase="ola eu gosto de dota"
+  frase=frase.split()
+  char=len(frase)
+  for i in range(0,char):
+    print(f"Você digitou: {frase[i]}")
+
+'-'.join(frase) = Juntar todos os elementos da frase com a junção do '-'
+  frase=str(input("Digite alguma coisa: ")).split()
+    print('-'.join(frase))

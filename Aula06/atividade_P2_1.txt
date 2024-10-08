@@ -1,0 +1,19 @@
+1)Para o nosso jogo de RPG, faça a junção das atividades 1 e 2, 
+Continuamos com o sistema de dano = Ataque - defesa;
+Faça a ficha de entrada do jogo da seguinte maneira: 
+1.1 Peça ao usuario o nome do personagem;
+1.2 Atribua a raça HUMANO e a classe GUERREIRO, para lvl e exp ZERO;
+1.3 Na ficha do personagem deve constar 5 atributos todos com o valor 1{
+  força, agilidade, inteligencia, carisma e Sabedoria;
+}
+1.4 limpe a tela e imprima a ficha.
+2 Crie um looping que contenha o menu principal do jogo,
+2.1 O personagem deve escolher, 
+  1 Entrar na Caverna,
+  2 Voltar para a hotel,
+2.2 Se o jogador escolher voltar imprima a ficha atualizada e encerre o jogo.
+2.3 Se o jogador escolher entrar na Caverna, que seja rolado um valor randomico de 1 a 8.
+2.4 Se cair entre 1 a 2, que seja encontrado o desafio dos baus. 
+2.5 Se cair entra 3 a 8, que seja encontrado o desafio dos monstros.
+
+Grupos de 6

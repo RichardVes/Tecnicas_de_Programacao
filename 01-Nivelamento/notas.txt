@@ -1,0 +1,9 @@
+Tipos de variaveis 
+-Numericas
+int =numero inteiros
+float = numeros quebrados ou ponto flutuante
+-Entrada 
+input()
+-Saida
+print()
+ 

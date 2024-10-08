@@ -1,0 +1,115 @@
+--NIVELAMENTO: Estrutura de Controle--
+
+-Condicional If
+O comando if em Python é como um ponto de decisão em seu código. Ele permite que você execute diferentes blocos de código com base em uma determinada condição. Imagine que você está criando um programa para verificar se uma pessoa é maior de idade. Você usaria um if para comparar a idade da pessoa com 18 anos e tomar uma decisão diferente dependendo do resultado.
+
+if condição:
+    # Código a ser executado se a condição for verdadeira
+else:
+    # Código a ser executado se a condição for falsa 
+
+exemplo:
+
+x = 5
+if x<5:
+	print("X menor que 5")
+elif:
+	print("X maior que 5")
+else:
+	print("X é igual a 5")
+
+---------------------------------------------------------
+
+Exercícios com: "IF"
+1 - Crie um programa que receba a nota de um aluno como entrada e exiba a classificação correspondente de acordo com a tabela abaixo:
+Notas maiores ou iguais a 9: A
+Notas maiores ou iguais a 8 e menores que 9: B
+Notas maiores ou iguais a 7 e menores que 8: C
+Notas maiores ou iguais a 6 e menores que 7: D
+Notas menores que 6: E
+O programa deve solicitar ao usuário que digite a nota (um valor numérico de 0 a 10) e, em seguida, exibir a classificação correspondente.
+
+2 - Desenvolva um programa que solicite ao usuário a entrada de um número inteiro e determine se o número é positivo, negativo ou zero. Com base na análise, o programa deve exibir uma mensagem apropriada.
+Requisitos:
+Se o número for maior que zero, exiba a mensagem: "O número é positivo."
+Se o número for menor que zero, exiba a mensagem: "O número é negativo."
+Se o número for igual a zero, exiba a mensagem: "O número é zero."
+
+3 - Crie um programa que calcule o valor a ser pago por um cliente em um estacionamento, com base no tempo em que o carro ficou estacionado.
+Regras de cobrança:
+Até 2 horas: R$ 5,00 (valor fixo)
+De 2 a 4 horas: R$ 8,00 (valor fixo)
+Acima de 4 horas: R$ 10,00 mais R$ 2,00 adicionais para cada hora extra.
+O programa deve solicitar ao usuário a quantidade de horas que o carro ficou estacionado e calcular o valor a ser pago com base nas regras acima.
+
+---------------------------------------------------------------------
+
+-Estrutura de Repetição for em Python
+
+A estrutura for em Python é utilizada para iterar sobre uma sequência de elementos (como listas, tuplas, strings, dicionários ou range), executando um bloco de código para cada elemento.
+
+Exemplo:
+frutas = ["maçã", "banana", "laranja"]
+for fruta in frutas:
+    print(fruta)
+
+- range() 
+for var in range(x,y,iteração)
+distancia de (0,10,+1) 
+vai de x a y
+
+4 - Desenvolva um programa que exiba todos os números pares de 0 a 20, utilizando um loop for.
+Requisitos:
+Utilize a função range() para gerar a sequência de números.
+O programa deve imprimir cada número par em uma nova linha.
+
+5 - Desenvolva um programa que gere e exiba a tabuada de um número inteiro fornecido pelo usuário. A tabuada deve incluir multiplicações de 1 a 10.
+Requisitos:
+O programa deve solicitar ao usuário que insira um número inteiro.
+Em seguida, o programa deve calcular e exibir a tabuada desse número, mostrando o resultado de multiplicações de 1 a 10.
+
+-----------------------------------------------------
+
+-While 
+O comando while em Python é outra ferramenta poderosa para criar loops, ou seja, repetir um bloco de código enquanto uma determinada condição for verdadeira. Diferentemente do for, que itera sobre uma sequência pré-definida, o while continua executando o bloco até que a condição se torne falsa.
+
+while condição:
+    # Código a ser executado enquanto a condição for verdadeira
+
+exemplo:
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+
+
+6 - Crie um programa que simule uma contagem regressiva de 10 até 0 e, ao final, exiba a mensagem "Fogo!".
+Requisitos:
+O programa deve iniciar a contagem regressiva a partir de 10.
+A cada iteração, o programa deve diminuir o contador em 1 e exibir o valor atual do contador.
+Quando a contagem chegar a 0, o programa deve exibir a mensagem "Fogo!".
+
+
+7- Desenvolva um programa que gere e exiba a tabuada de um número inteiro fornecido pelo usuário, utilizando um loop while. A tabuada deve incluir multiplicações de 1 a 10.
+Requisitos:
+O programa deve solicitar ao usuário que insira um número inteiro.
+Usando um loop while, o programa deve calcular e exibir a tabuada desse número, mostrando o resultado de multiplicações de 1 a 10.
+O loop deve continuar até que a tabuada seja exibida completamente.
+
+8- Desenvolva um programa que calcule o fatorial de um número inteiro positivo fornecido pelo usuário, utilizando um loop while.
+Regras:
+O fatorial de um número n (denotado como n!) é o produto de todos os números inteiros positivos de 1 até n.
+Por exemplo, o fatorial de 5 (5!) é calculado como 5 × 4 × 3 × 2 × 1 = 120.
+Requisitos:
+O programa deve solicitar ao usuário que insira um número inteiro positivo.
+Usando um loop while, o programa deve calcular o fatorial desse número.
+Ao final, o programa deve exibir o resultado do cálculo do fatorial.
+
+9 - Desenvolva um programa que simule o funcionamento básico de um caixa eletrônico. O programa deve permitir ao usuário visualizar o saldo, realizar saques e encerrar a operação.
+Requisitos:
+O saldo inicial do usuário deve ser de R$ 1000,00.
+O programa deve exibir um menu com três opções:
+Saldo: Exibe o saldo atual do usuário.
+Saque: Permite ao usuário realizar um saque. O valor do saque deve ser subtraído do saldo, desde que o saldo seja suficiente. Se o saldo for insuficiente, o programa deve informar que a operação não pode ser realizada.
+Sair: Encerra o programa.
+O menu deve ser exibido repetidamente até que o usuário escolha a opção de sair (opção 3).

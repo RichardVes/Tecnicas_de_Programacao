@@ -1,0 +1,16 @@
+--Conteudo--
+-Variaveis e seus tipos (int, float, string);
+-Operadores aritimeticos, logico e comparativos;
+-Operadores de entrada e saida
+  Entrada, input()
+  Saida, print()
+-Estrutura de repeticao
+  if, elif e else
+  
+-Estrutura padrão do if
+  if(condição1):
+    parametro1
+ elif(condição2):
+    parametro2
+ else:
+    parametro3

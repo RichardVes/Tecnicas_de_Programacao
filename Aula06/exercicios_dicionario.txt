@@ -1,0 +1,4 @@
+Exercicios Dicionario
+1) Crie um menu de cadastro de produtos com preço, peça ao usuario entrar com o valor do produto, ao final pergunte se ele quer cadastrar outro ou mostrar a lista de produtos na saida;
+
+

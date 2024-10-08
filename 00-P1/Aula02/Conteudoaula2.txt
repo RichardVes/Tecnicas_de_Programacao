@@ -1,0 +1,27 @@
+#--Aula 02-- 
+-Repetição, lista;
+#-While
+While(condição1):
+  parametro1
+-Exemplo:
+x= int(input("digite x"))
+y= int(input("digite y"))
+while x<y:
+ print("percorrendo de ",x,"até",y)
+ x+=1
+
+-FOR CONTADOR
+-Exemplo:
+for contador in range (1,3,+1):
+  print("item",contador)
+print("fim")
+n=int(input("Digite um numeno de 0 a 10"))
+for contador in range (1,n+1):
+  print("n = ",contador)
+print("fim")
+
+-LISTA
+-Exemplo:
+lista=["item 1","item 2","item 3"]
+for itens in lista:
+ print(itens)

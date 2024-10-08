@@ -1,0 +1,7 @@
+1) Escreva um programa que leia 5 notas de um aluno e armazene-as em uma lista. O programa deve calcular a média das notas, mas desconsiderando a menor nota. Se a média for maior ou igual a 7, o programa deve exibir "Aprovado"; se for entre 5 e 7, "Recuperação"; e se for menor que 5, "Reprovado".
+
+2) Desenvolva um jogo de "Pedra, Papel e Tesoura" onde o usuário joga contra o computador. O programa deve permitir que o usuário escolha uma opção (pedra, papel ou tesoura), enquanto o computador faz uma escolha aleatória. O jogo deve declarar um vencedor ou indicar um empate após cada rodada, e permitir ao usuário jogar quantas vezes quiser.
+
+3)Escreva um programa para gerenciar o estoque de uma loja. O programa deve permitir que o usuário adicione produtos (nome e quantidade) a uma lista de estoque, remova produtos e atualize as quantidades. O programa deve exibir o estoque atual a qualquer momento e encerrar quando o usuário desejar.
+
+4)Crie um simulador de lançamento de dois dados. O programa deve lançar os dois dados e exibir o resultado de cada um. Se a soma dos números for igual a 7 ou 11, o programa deve declarar vitória, senão, deve permitir que o usuário escolha se quer lançar os dados novamente.

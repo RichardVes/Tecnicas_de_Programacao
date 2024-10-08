@@ -1,0 +1,26 @@
+Lista de exercicio em py aula 2
+
+1 Contagem:
+Peça ao usuário para digitar um número.
+Utilize um laço while para contar de 0 até o número digitado.
+
+2 Tabuada:
+Peça ao usuário para digitar um número.
+Utilize um laço while para imprimir a tabuada desse número até o 10.
+3 Soma de números:
+Inicialize uma variável soma com 0.
+Utilize um laço while para pedir ao usuário que digite números.
+A cada número digitado, adicione-o à variável soma.
+O laço para quando o usuário digitar 0.
+Ao final, imprima a soma total.
+
+4 Verificação de senha:
+Crie uma senha secreta.
+Peça ao usuário para digitar a senha.
+Utilize um laço while para solicitar a senha até que o usuário digite a senha correta.
+
+5 Jogo de cores;
+Imagine uma sequência formada por três letras, onde cada letra representa uma cor: R para vermelho, G para verde e B para azul.
+Peça ao usuário que escolha duas dessas letras e mostre a cor resultante da mistura dessas cores primárias. 
+Dica{se o usuário escolher 'R' e 'G', você deverá informar que a mistura de vermelho e verde resulta em amarelo, lembrando que R e R obsten-se vermelho :) }
+Ao digitar uma entrad diferente, use o comando "break" para mostra uma mensagem de saida e encerre o programa.

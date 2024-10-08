@@ -1,0 +1,7 @@
+--exercicios aula 05--
+1) Crie um programa que peça ao usuario o seu nome completo e mostre somente a primeira letra em MAIUSCULA.
+2)Crie um programa que peça ao usuario uma palavra e retorne se ela esta em maiuscula, em minuscula ou se somente a primeira letra esta em maiuscula.
+3) Crie um programa que peça ao usuario uma frase maior que 10 letras e mostre somente as letras PARES
+4) Crie um programa que peça ao usuario uma frase maior que 10 letras e mostre somente as letras IMPARES
+5) Crie um programa que conte quantas vogais existe na frase "Eu adoro programar com meu professor, ainda mais por ser uma segunda feira a noite, obs eu gosto de DOTA"
+6)
