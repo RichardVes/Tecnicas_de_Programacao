@@ -7,11 +7,9 @@ ctrl + shift + vs
 ## função
 
 def nome():
-
 parametros
 
 chamada;
-
 nome()
 
 ##-parametros
