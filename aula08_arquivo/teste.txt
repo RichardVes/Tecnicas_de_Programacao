@@ -1,0 +1,1 @@
+{"nome": "richard", "hp": 10, "mana": 5}
